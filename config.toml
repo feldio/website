@@ -1,0 +1,21 @@
+baseURL = "https://feldio.com/"
+languageCode = "de-de" # Set German as the default language
+title = "My Hugo Site"
+
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 1
+    contentDir = "content/de"
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "content/en"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
