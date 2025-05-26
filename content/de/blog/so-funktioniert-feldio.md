@@ -1,13 +1,17 @@
 ---
 title: "So funktioniert Feldio: Schritt-für-Schritt zum schnellen Agrarkredit"
 date: 2025-05-26
-description: "Schritt für Schritt zum digitalen Agrarkredit – so einfach funktioniert die Kreditbeantragung mit Feldio."
+description: "Schritt für Schritt zum digitalen Agrarkredit – so einfach funktioniert die Kreditbeantragung mit Feldio. Erfahre, wie Landwirte schnell, digital und sicher an Finanzierung kommen."
 author: "Feldio Team"
-keywords: ["Feldio Kredit beantragen", "Kreditantrag Landwirtschaft", "Finanzierung für Bauern schnell", "Agrarkredit digital"]
-categories: ["Finanzierung"]
-tags: ["Landwirtschaft", "Kredit", "Digital", "Beta"]
+keywords: ["Feldio Kredit beantragen", "Kreditantrag Landwirtschaft", "Finanzierung für Bauern", "Agrarkredit digital", "schneller Agrarkredit", "digitale Finanzierung"]
+categories: ["Finanzierung", "Landwirtschaft", "Digitale Kredite"]
+tags: ["Landwirtschaft", "Kredit", "Digital", "Beta", "Agrarfinanzierung", "Feldio"]
 slug: "feldio-kredit-antrag"
 draft: false
+robots: "index, follow"
+gpt_summary: "Dieser Beitrag erklärt, wie Landwirte mit Feldio in vier einfachen Schritten einen digitalen Agrarkredit beantragen können – schnell, transparent und komplett online."
+lang: "de"
+layout: single
 ---
 
 Die Finanzierung in der Landwirtschaft muss nicht kompliziert sein. Mit Feldio bekommst du in wenigen Schritten ein unverbindliches Kreditangebot – digital, schnell und sicher.
