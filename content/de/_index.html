@@ -250,18 +250,32 @@ og_url: "https://feldio.com/de/"
  </script>
 </head>
 <body>
-  <div class="beta-banner">
-    Feldio befindet sich aktuell in der Beta-Phase. Trage dich ein, um als Erster informiert zu werden oder um als Testbetrieb mitzumachen.
+
+  <!-- Hero-Fotos Abschnitt nach der Startsektion -->
+  <section class="hero-images" style="display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); max-width: 900px; margin: 2.5rem auto 2.5rem auto;">
+    <img src="/assets/img/hero-left2.jpg" alt="Feld im Sonnenlicht" style="width: 100%; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.10); object-fit: cover; min-height: 140px; max-height: 220px;" />
+    <img src="/assets/img/hero-right.jpg" alt="Traktor auf dem Acker" style="width: 100%; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.10); object-fit: cover; min-height: 140px; max-height: 220px;" />
+    <img src="/assets/img/hero-center2.jpg" alt="Landwirtschaftlicher Betrieb" style="width: 100%; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.10); object-fit: cover; min-height: 140px; max-height: 220px;" />
+  </section>
+  <div style="text-align: center; max-width: 700px; margin: -1.2rem auto 2.5rem auto; color: #2e5e2e; font-size: 1.08rem;">
+    <span>Schnelle, digitale Finanzierung für Landwirte – Feldio ermöglicht unkomplizierte Vorfinanzierung von Betriebsmitteln, passgenau für deinen Hof.</span>
   </div>
 
+  <div class="container" id="start">
+    <section style="margin: 2.5rem 0 2rem 0; background: #e6ffe6; border-radius: 12px; border: 1px solid #cceccc; padding: 2.5rem 1.5rem; box-shadow: 0 2px 8px rgba(60,124,60,0.07);">
+      <h2 style="font-family: 'IBM Plex Serif', serif; color: #2e5e2e; font-size: 2rem; margin-top: 0;">Die neue Art der Agrarfinanzierung</h2>
+      <ul style="list-style: none; padding-left: 0; margin: 1.5rem 0 0 0;">
+        <li style="margin-bottom: 1.1rem; font-size: 1.1rem;"><b>✔ Automatisierte Bonitätsbewertung:</b> Feldio erstellt dein Kreditprofil aus echten Betriebsdaten (z.B. Hofmanagement, Wetter, Ernte, Finanzen) – schnell, digital und objektiv.</li>
+        <li style="margin-bottom: 1.1rem; font-size: 1.1rem;"><b>✔ Sofortige Vorfinanzierung:</b> Finanzierung direkt beim Händler – „Buy now, pay later“ für Saatgut, Dünger &amp; Co.</li>
+        <li style="margin-bottom: 1.1rem; font-size: 1.1rem;"><b>✔ KI-gestützte Kreditentscheidung:</b> Fair, transparent und speziell für die Landwirtschaft entwickelt.</li>
+        <li style="margin-bottom: 1.1rem; font-size: 1.1rem;"><b>✔ Weniger Papierkram:</b> Alles digital, alles automatisiert – mehr Zeit für den Betrieb.</li>
+        <li style="margin-bottom: 1.1rem; font-size: 1.1rem;"><b>✔ Bessere Konditionen:</b> Günstigere Zinsen durch objektive Risikoeinschätzung.</li>
+      </ul>
+      <div style="margin-top: 2rem; text-align: center;">
+        <a href="#" style="background: #3c7c3c; color: white; padding: 1rem 2.2rem; border-radius: 6px; font-size: 1.15rem; font-weight: 600; text-decoration: none; box-shadow: 0 2px 6px rgba(60,124,60,0.08);">Jetzt unverbindlich vormerken</a>
+      </div>
+    </section>
 
-  <div class="container">
-    <div class="hero-images" style="display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-bottom: 2rem;">
-      <img src="/assets/img/hero-left2.jpg" alt="Feld im Sonnenlicht" style="width: 100%; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" />
-      <img src="/assets/img/hero-right.jpg" alt="Traktor auf dem Acker" style="width: 100%; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" />
-      <img src="/assets/img/hero-center2.jpg" alt="Landwirtschaftlicher Betrieb" style="width: 100%; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" />
-    </div>
-   
     <h2>Deine Vorteile</h2>
     <div class="vorteile-grid">
       <div class="vorteil-card">
@@ -300,13 +314,13 @@ og_url: "https://feldio.com/de/"
     <p>Feldio befindet sich in der Beta-Phase. Wenn du Interesse hast, bei der Entwicklung mitzuwirken oder frühzeitig Kredite zu beantragen, kannst du dich hier eintragen.</p>
     
 
-    <div class="cta">
+    <div class="cta" id="kontakt">
       <h2>Unverbindlich eintragen</h2>
       <form
-        action="https://formspree.io/f/mdkedyqn"
-        class="fs-form"
-        target="_top"
-        method="POST"
+      action="https://formspree.io/f/mdkedyqn"
+      class="fs-form"
+      target="_top"
+      method="POST"
       >
         <div class="fs-field">
           <label class="fs-label" for="name">Name des Betriebs</label>
